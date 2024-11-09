@@ -1,0 +1,45 @@
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+Create a new Rust project for the backend:
+cargo new rust-backend
+cd rust-backend
+
+Add dependencies in your Cargo.toml:
+
+[dependencies]
+actix-web = "4.0"
+actix-cors = "0.6"
+serde = { version = "1.0", features = ["derive"] }
+
+
+cargo run
+
+use actix_cors::Cors;
+use actix_web::{web, App, HttpServer, HttpResponse, Responder};
+use serde::Deserialize;
+
+#[derive(Deserialize)]
+struct NameInput {
+    name: String,
+}
+
+async fn greet(name: web::Json<NameInput>) -> impl Responder {
+    HttpResponse::Ok().json(format!("{} hi", name.name))
+}
+
+#[actix_web::main]
+async fn main() -> std::io::Result<()> {
+    HttpServer::new(|| {
+        let cors = Cors::default()
+            .allow_any_origin()
+            .allow_any_method()
+            .allow_any_header();
+        
+        App::new()
+            .wrap(cors)
+            .route("/greet", web::post().to(greet))
+    })
+    .bind("127.0.0.1:8080")?
+    .run()
+    .await
+}
