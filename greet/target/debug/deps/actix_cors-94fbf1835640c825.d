@@ -1,0 +1,10 @@
+/Users/harshitmundra/Desktop/rustsimple/greet/target/debug/deps/libactix_cors-94fbf1835640c825.rmeta: /Users/harshitmundra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.6.5/src/lib.rs /Users/harshitmundra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.6.5/src/all_or_some.rs /Users/harshitmundra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.6.5/src/builder.rs /Users/harshitmundra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.6.5/src/error.rs /Users/harshitmundra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.6.5/src/inner.rs /Users/harshitmundra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.6.5/src/middleware.rs
+
+/Users/harshitmundra/Desktop/rustsimple/greet/target/debug/deps/actix_cors-94fbf1835640c825.d: /Users/harshitmundra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.6.5/src/lib.rs /Users/harshitmundra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.6.5/src/all_or_some.rs /Users/harshitmundra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.6.5/src/builder.rs /Users/harshitmundra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.6.5/src/error.rs /Users/harshitmundra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.6.5/src/inner.rs /Users/harshitmundra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.6.5/src/middleware.rs
+
+/Users/harshitmundra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.6.5/src/lib.rs:
+/Users/harshitmundra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.6.5/src/all_or_some.rs:
+/Users/harshitmundra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.6.5/src/builder.rs:
+/Users/harshitmundra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.6.5/src/error.rs:
+/Users/harshitmundra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.6.5/src/inner.rs:
+/Users/harshitmundra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.6.5/src/middleware.rs:
